@@ -1,0 +1,248 @@
+
+.imgages-container {
+    position: absolute;
+    top: 26%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align:center; /* Align center inline elements */
+}
+
+
+
+.responsive-container {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    border: 1px solid yellow;
+}
+
+
+.xxx {
+    display: inline-block;
+}
+
+.dummy {
+    padding-top: 100%; /* forces 1:1 aspect ratio */
+    max-width: 100%;
+    max-height: 100%;
+    display: initial;
+}
+
+.img-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
+
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;
+}
+
+.img-container:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.img-container img {
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+
+.img-container-content {
+    position: relative;
+    /* width: 100%;  */
+    height: 100%;
+    display: inline-flex;
+    /* float: left; */
+}
+
+
+.mySlides {
+    display:none;
+    text-align: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    /* max-width: 1000px; */
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: -22px;
+    color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    z-index: 100;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    margin-left: 15px;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 15px;
+}
+
+
+.roel-click {
+    display: inline-block;
+    position: absolute;
+    top: 13%;
+    height: 80%; 
+    z-index: 200;
+    /*  background-color: yellow; */
+}
+
+.mySlides_L {
+    z-index: 999;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    /* background-color: rgb(30,30,31);  */
+    /* background-color: grey;  */
+}
+
+/* Caption text */
+.text {
+    color: white;
+    color: black;
+    font-family: Cotham;
+    font-size: .7vw;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: -24px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: .1vw;
+    text-transform: uppercase;
+}
+
+.text-special {
+    color: white;
+    color: black;
+    font-family: Cotham;
+    font-size: .7vw;
+    /* padding: 8px 12px;
+    position: absolute;
+    bottom: -24px;
+    width: 100%;  */
+    text-align: center;
+    letter-spacing: .1vw;
+    text-transform: uppercase;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    display: none;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    display: none;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+/*
+/* css voor vimeo movies   */
+.roel-embed-container {
+  /* position: relative;  */
+  /* padding-bottom: 56.25%; */
+  height: 100%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.roel-embed-container iframe,
+.roel-embed-container object,
+.roel-embed-container embed {
+  /* position: absolute;  */
+  /* top: 0; */
+  /* left: 0; */
+  width: 700px;
+  height: 100%;
+  border: none;
+}
+
+
+
+
+
+
+.roel-frame {
+    height: 100%;
+}
+
+/* css voor vimeo movies END  */
+
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+.roel-link-laura {
+    padding-top: 25px;
+	padding-bottom: 0px;
+    /* font-size: 0.9vw; */
+}
+

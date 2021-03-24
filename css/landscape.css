@@ -1,0 +1,501 @@
+/*!
+ * Special set of CSS classes for the website of Foscaa v0.9
+ * Specials for portrait orientation of devices
+ * Copyright 2017 Leon Nabuurs
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+.roel-landscape {
+    display: block;
+}
+*/
+.roel-portrait {
+    display: none;
+}
+
+.overview-table {
+    position: absolute;
+    border: 0px solid blue;
+    left: 0px;
+    top: 6%;
+    width: 100%;
+    height: 88%;
+}
+
+.table-row-last {
+    border-bottom: 1px solid white;
+}
+
+a {
+    color: white;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    color: black;
+    text-decoration: none;
+}
+
+a:focus {
+    color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
+.about-table-top {
+    position: absolute;
+    border: 0px solid blue;
+    left: 0px;
+    top: 6%;
+    width: 100%;
+    height: 22%;
+}
+
+.about-table-left {
+    position: absolute;
+    border: 0px solid blue;
+    left: 0px;
+    top: 28%;
+    width: 33.333%;
+    height: 66.6667%;
+    border-bottom: 1px solid white;
+}
+
+.about-table-center {
+    position: absolute;
+    border: 0px solid blue;
+    left: 33.333%;
+    top: 28%;
+    width: 33.333%;
+    height: 66.6667%;
+    border-bottom: 1px solid white;
+}
+
+.about-table-right {
+    position: absolute;
+    border: 0px solid blue;
+    right: 0px;
+    top: 28%;
+    width: 33.367%;
+    height: 66.6667%;
+    border-bottom: 1px solid white;
+}
+
+.about-table-center-right {
+    position: absolute;
+    border: 0px solid blue;
+    right: 0px;
+    top: 28%;
+    width: 66.6667%;
+    height: 66.6667%;
+    border-bottom: 1px solid white;
+}
+
+.details-table-left {
+    position: fixed;
+    border: 0px solid blue;
+    left: 0px;
+    top: 6%;
+    width: 33.333%;
+    height: 88%;
+    /* border-bottom: 1px solid white; */
+}
+
+.details-table-center-right {
+    position: absolute;
+    border: 0px solid blue;
+    right: 0px;
+    top: 28%;
+    width: 66.67%;
+    height: 66.6667%;
+    border-bottom: 1px solid white;
+}
+
+.details-cell {
+    position: relative;
+    /* border: 1px solid blue; */
+    font-family: Cotham; 
+    font-size: 1.2vw;
+    width: 33.333%;
+    height: 22%;
+    /* border-bottom: 1px solid white;  */
+}
+
+.details-cell-dubbel {
+    position: relative;
+    width: 100%;
+    height: 44%;
+    
+    text-align: center;
+    border-top: 1px solid white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid white;
+    border-right: 1px solid black;
+    padding: 40px;
+}
+
+.details-cell-left {
+    position: fixed;
+    left: 33.3336%;
+    top: 6%; 
+    width: 5%;
+    height: 88%;
+    /* border-top: 1px solid white; */
+    /* border-bottom: 1px solid white; */
+    border-left: 0px solid black;
+}
+
+.details-kol-left {
+    width: 33.3333%;
+    height: 22%;
+    /* border-top: 1px solid white;  */
+    /* border-bottom: 1px solid white; */
+    border-right: 1px solid white;
+    border-right: 1px solid black;
+    border-left: 0px solid black;
+    text-align: center;
+    padding: 0px 70px;
+}
+
+.details-cell-content {
+    position: fixed;
+    /* border: 1px solid green; */
+    left: 38.3336%;
+    top: 6%;
+    width: 56.667%;
+    height: 88%;
+    border-top: 1px solid white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
+}
+
+.details-cell-right {
+    position: fixed;
+    right: 0px;
+    top: 6%;
+    width: 5%;
+    height: 88%;
+    /* border-top: 1px solid white; */
+    /* border-bottom: 1px solid white; */
+}
+
+.details-image {
+    display: block;
+    max-width: 40%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.details-contact {
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;   
+}
+
+.overview-cell {
+    width: 33%;
+    /* height: 14.28%; */
+    height: 22%;
+    font-family: Cotham; 
+    font-size: 1.2vw;
+    text-align: center;
+    border: 1px solid white;
+    border: 1px solid black;
+}
+
+.overview-cell-three {
+    width: 33%;
+    height: 42.84%;
+    font-family: Cotham; 
+    font-size: 1.2vw;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
+}
+
+.overview-cell-left {
+    border-left: 0px solid black;
+}
+
+.overview-cell-center {
+    border: 0px solid black;
+    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
+}
+
+.overview-cell-right {
+    border-right: 0px solid black;
+}
+
+.overview-cell-top {
+    border-left: 0px solid black;
+}
+
+.overview-cell-bottom {
+    border-bottom: 0px solid black;
+}
+
+.roel-your {
+    text-transform: uppercase;
+    color: rgb(129,131,134);
+    font-size: 0.7vw;
+    letter-spacing: .1vw;
+}	
+
+.roel-about-image {
+    position: relative;
+    top: 20px;
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    border: 0px solid green;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+.about-program-link {
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.roel-home-titles {
+    font-size: 6vw;
+}
+
+.roel-page-title {
+    line-height: 40px;
+}
+
+.roel-image-center {
+    position: relative;
+    width: auto;
+    max-width: 85%;
+    text-align: center;
+    padding: 5%;
+    border: 0px solid green;
+    max-height: 600px;
+}
+
+.roel-image-caption {
+ bottom: 0px; 
+ position: absolute; 
+ margin-top: 20px;
+}
+
+.roel-sponsors {
+    position: relative;
+    border: 0px solid blue;
+    width: 80%;
+    left: 10%;
+    top: 30px;
+}
+
+.table-sponsor {
+    position: relative;
+    border: 0px solid green;
+    width: 100%;
+}
+
+.table-sponsor td {
+    text-align: center;
+}
+
+.roel-sponsor-logo {
+    position: relative;
+    border: 0px solid blue;
+    max-height: 45px;
+}
+
+.roel-sponsor-explain {
+    font-size: 1.2vw;
+    text-align: center; 
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+
+.roel-multicolumn {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+}
+
+.roel-program-textblock {
+    padding-bottom: 2.5%;
+    font-size: 1.2vw;
+}
+
+
+.overview-table-portrait {display : none }
+.overview-cell-portrait {display : none }
+
+
+.roel-header {
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
+}
+
+.roel-header-overview {
+    position: fixed;
+    top: 0px;
+    border-bottom: 0px solid white;
+}
+
+.roel-footer {
+    position: fixed;
+    background-color: rgb(30,30,31);
+    background-color: rgb(0,0,0,0.1); 
+    background-color: white;
+    width: 100%;
+    height: 6.1%;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 1.1vw;
+    letter-spacing: .1vw;
+    border-top: 1px solid white;
+    border-top: 1px solid black;
+    border-bottom: none;
+}
+
+.roel-footer-overview {
+    position: fixed;
+    background: rgb(30,30,31); 
+    width: 100%;
+    height: 6%;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 1.1vw;
+    letter-spacing: .1vw;
+    /* border-top: 1px solid white;  */
+    border-bottom: none;
+}
+
+.roel-footer-left {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 16.6667%;
+    border-right: 1px solid white;
+    border-right: 1px solid black;
+    height: 6.1%;
+    display: table;
+}
+.roel-footer-center {
+    position: fixed;
+    bottom: 0px;
+    left: 16.6667%;
+    width: 66.6667%;
+    height: 6.1%;
+    display: table;
+    /*  border-top: 1px solid white; */
+}
+
+.carousel-inner .item {
+    color: black;
+}
+
+.roel-footer-right {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;	
+    width: 16.6667%;
+    border-left: 1px solid white;
+    border-left: 1px solid black;
+    height: 6.1%;
+    display: table;
+}
+
+.roel-footer-text {
+    font-size: 1.1vw;
+    vertical-align: middle;
+    text-transform: uppercase;
+    display: table-cell;
+}
+
+.arrow-text {
+    font-size: 1.2vw;
+}
+
+.img-container {
+    position: absolute;
+    top: 12%;
+    bottom: 12%;
+    left: 39%;
+    right: 6%;
+    overflow: hidden;    
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;
+}
+
+.details-title {
+    position: relative;
+    /* top: 6%; */
+    left: 0px;
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
+}
+
+.details-images {
+    /* position: relative; */
+    /* top: 16%; */
+    display: inline-block;
+    left: 0px;
+    height: 30%;
+    width: 100%;
+    /*border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
+    */
+}
+
+.dummy {
+   /* padding-top: 100%; /* forces 1:1 aspect ratio */
+    max-width: 100%;
+    max-height: 70%;
+    display: initial;
+}
+
+.dummy-2 {
+   /* padding-top: 100%; /* forces 1:1 aspect ratio */
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: 100%;
+}
+
+td a {
+    display:block;
+    width:100%;
+    padding: 40px 20px;
+}
+
+.details-about {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.roel-click-right {
+    width: 33%;
+    right: 0px;
+}
+.roel-click-left {
+    width: 33%;
+    left: 33%;
+}

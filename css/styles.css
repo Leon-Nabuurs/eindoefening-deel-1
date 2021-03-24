@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1,1;
+	cursor:url(../html%20shit/Images/Projecten/142-2.ico), default;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* text */
+iframe						{max-width:100%; max-height:100%;}
+img							{max-width:100%;}
+.hover_img a 				{position: absolute;}
+.hover_img a span 			{position:absolute; display:none; z-index:99;}
+.hover_img a:hover span 	{display:block;}
+a 							{color: #000000; text-decoration: none; border-bottom: 1px solid #000000; display: inline-block; height: 1.13em;}
+h3							{font-family: 'Cardo', serif; color:#bbbbb; font-size:70px; padding:0px 0px 0px 0px;}
+h4							{font-family: 'Cardo', serif; color:#bbbbb; font-size:30px; margin: 390px 0 0 0;}
+p							{font-family: 'Cardo', serif; color:#bbbbb; font-size:40px;}
+b							{font-family: 'Roboto', sans-serif; font-weight:500;}
+i							{font-family:'Cardo', serif; font-weight:400italic;}
+body						{background-color:#FFF;}
+
+#wrapper					{width:auto; background-color:#eeeded; margin:0; padding:45px 30px 10px 30px;}
+
+#content1					{margin:250px 0 0 0; }
+#content2					{margin:250px 0 0 0; }
+#content3					{margin:250px 0 0 0; }
+#content4					{margin:250px 0 0 0; }
+
+#video-content1				{margin:60px 0 0 0;}
+#photo-content5				{margin:60px 0 0 0;}
+#photo-content6				{margin:60px 0 0 30px; float:left;}
+#photo-content7				{margin:60px 0 0 60px; float:left;}
+
+#footer						{font-size:13px; padding:80px 0 30px 0;}
+
+
+div#hmenu { 
+   position: fixed;
+   margin: 0; 
+   padding: .4em 0 .4em 1.7em; 
+   background: #ffffff; 
+   width: 100%; 
+   text-align: left;
+   font-family: 'Roboto', sans-serif; font-size:17px; font-weight:400;
+} 
+
+/* CSS Document */
+
